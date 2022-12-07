@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-
     <head>
         <html lang="pt-br">
         <meta charset="utf-8"/>
         <meta name="viewport" content="width= device-width, initial-scale=1">
         <meta http-equiv="content-language" content="pt-br">
         <script src="script.js"></script>
+        <link rel="stylesheet" href="estilo.css">
 
     </head>
     <body>
-
+        <div id="estilo">
         <h1>Calculadora HP</h1>
         <form action="">
             <ul>
@@ -26,14 +26,14 @@
                         <option value="/"> / (divisão)</option>
                     </select>
                 <li>
-                    <label for="valor2"></label>
+                    <label for="valor2">Segundo número</label>
                     <input type="text" id="valor2">
                 </li>
                 <input type="button" onclick="Calcular('valor1','valor2', 'operacao','saida')" value="Calcular">
-                <input type="button" onclick="Limpar('valor1', 'valor2')" value="Limpar"></ul>
+                <input type="button" onclick="Limpar('valor1', 'valor2', 'saida')" value="Limpar"></ul>
             
         </form>
-        <p id="saída"></p>
-        <script src="script.js"></script>
+        <p id="saida"></p>
+        </div>
     </body>
     </html>
