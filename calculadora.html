@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scal=1.0">
+        <title> Calculadora </title>
+        <link src="stylesheet" href="estilo/estilo.css">
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+
+        <h1>Calculadora HP</h1>
+        <form action="">
+            <ul>
+                <li>
+                    <label for="valor1">Primeiro número</label>
+                    <input type="text" id="valor1">
+                </li>
+                <li>
+                    <label for="operacao">Escolha a operação</label>
+                    <select name="" id="operacao">
+                        <option value="+"> + (adição)</option>
+                        <option value="-"> - (subtração)</option>
+                        <option value="*"> * (multiplicação)</option>
+                        <option value="/"> / (divisão)</option>
+                    </select>
+                <li>
+                    <label for="valor2"></label>
+                    <input type="text" id="valor2">
+                </li>
+                <input type="button" onclick="Calcular('valor1','valor2', 'operacao','saida')" value="Calcular">
+                <input type="button" onclick="Limpar('valor1', 'valor2')" value="Limpar valores"></ul>
+            
+        </form>
+        <p id="saída"></p>
+
+
+    
+    </body>
+    </html>
