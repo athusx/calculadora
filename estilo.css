@@ -1,0 +1,54 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    }
+    
+    fieldset {
+        border:none;
+    }
+    
+    body {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    #saida{
+        border-radius: 1em;
+        border: 1px solid black;
+        
+    }
+    form {
+       
+        background-color:#8c8d86;
+
+        margin:  auto;
+        width: 350px;
+        
+        padding: 1em;
+        border: 1px solid rgb(51, 26, 26);
+        border-radius: 1em;
+
+    
+        
+        padding-left: 0.5em;
+    }
+    h1 {
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        margin: 30px; 
+    }
+    
+    #valor1,#valor2:valid{
+        text-align: center;
+    }
+       
+      
+    
+    
+    
